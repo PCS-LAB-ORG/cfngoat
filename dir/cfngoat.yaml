@@ -35,6 +35,8 @@ Resources:
       Tags:
         - Key: Name
           Value: !Sub "my-data"
+        - Key: yor_trace
+          Value: 0a611923-a34a-4ebf-9b79-b4890e6e5af7
 
 Outputs:
   EC2PublicDNS:
