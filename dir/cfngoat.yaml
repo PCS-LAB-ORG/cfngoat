@@ -35,6 +35,8 @@ Resources:
       Tags:
         - Key: Name
           Value: !Sub "my-data"
+        - Key: git_org
+          Value: PCS-LAB-ORG
 
 Outputs:
   EC2PublicDNS:
