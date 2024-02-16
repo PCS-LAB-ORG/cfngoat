@@ -35,6 +35,8 @@ Resources:
       Tags:
         - Key: Name
           Value: !Sub "my-data"
+        - Key: application
+          Value: sockshop
 
 Outputs:
   EC2PublicDNS:
