@@ -35,6 +35,8 @@ Resources:
       Tags:
         - Key: Name
           Value: !Sub "my-data"
+        - Key: user
+          Value: pchandaliya
 
 Outputs:
   EC2PublicDNS:
